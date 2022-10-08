@@ -1,0 +1,50 @@
+{
+  "name": "volcengine-sdk",
+  "version": "0.0.1",
+  "description": "Volcengine SDK for JS",
+  "main": "index.js",
+  "type": "module",
+  "exports": {
+    ".": {
+      "browser": {
+        "require": "./index.js",
+        "default": "./index.js"
+      },
+      "default": {
+        "require": "./dist/node/volcengine-sdk.cjs",
+        "default": "./index.js"
+      }
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c -m"
+  },
+  "dependencies": {
+    "crypto-js": "^4.1.1"
+  },
+  "devDependencies": {
+    "path": "0.12.7",
+    "@babel/preset-env": "^7.19.3",
+    "@rollup/plugin-node-resolve": "^14.1.0",
+    "@rollup/plugin-commonjs": "^22.0.2",
+    "rollup-plugin-terser": "^7.0.2",
+    "@rollup/plugin-babel": "^6.0.0",
+    "rollup-plugin-auto-external": "^2.0.0",
+    "rollup-plugin-bundle-size": "^1.0.3",
+    "@rollup/plugin-json": "^4.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KrisLee1/volcengine-sdk-js.git"
+  },
+  "keywords": [],
+  "author": "KrisLee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KrisLee1/volcengine-sdk-js/issues"
+  },
+  "contributors": [
+    "KrisLee (https://github.com/KrisLee1, https://www.krislee.me/)"
+  ]
+}
