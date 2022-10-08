@@ -2,7 +2,7 @@
  * @Author: KrisLee 2030000020@qq.com
  * @Date: 2022-10-08 03:10:50
  * @LastEditors: KrisLee 2030000020@qq.com
- * @LastEditTime: 2022-10-08 23:40:54
+ * @LastEditTime: 2022-10-08 23:47:13
  * @FilePath: /volc-sdk-js/README.md
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
@@ -11,7 +11,7 @@
 <h1 align="center">火山引擎SDK for JS</h1> 
 欢迎使用火山引擎SDK for JS，本文档为您介绍如何获取及调用SDK。
 
-> 备注：JS SDK非火山引擎官方开发，由KrisLee开发。
+> 备注：JS SDK 非火山引擎官方开发，由 KrisLee 开发。
 
 ## 前置准备
 
@@ -38,6 +38,9 @@ npm i volcengine-sdk
 ```
 
 ## 使用
+
+以[文本翻译API](https://www.volcengine.com/docs/4640/65067) 为例。
+
 ### 示例代码
 
 ```js
