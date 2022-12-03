@@ -11,7 +11,7 @@
 <h1 align="center">火山引擎SDK for JS</h1> 
 欢迎使用火山引擎SDK for JS，本文档为您介绍如何获取及调用SDK。
 
-> 备注：JS SDK 非火山引擎官方开发，由 KrisLee 开发。
+> 备注：JS SDK 非火山引擎官方开发，由 KrisLee 开发。目前只适配了翻译功能，其他功能API不一定可用。
 
 ## 前置准备
 
